@@ -1,0 +1,75 @@
+#mySidebar {
+    width: 180px;
+    margin-right: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    height: calc(100vh - 91px);
+    position: relative;
+    padding: 30px 0 15px 0;
+    background: var(--auth-left-background);
+    box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+  }
+  
+  .closebtn {
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 190px;
+    cursor: pointer;
+    display: block;
+    width: 16px;
+  }
+  
+  .closebtn img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  
+  #main {
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0px;
+    cursor: pointer;
+    display: none;
+    width: 16px;
+  }
+  
+  #main img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  
+  #main img {
+    transform: rotate(180deg);
+  }
+  
+  .sidebar .menu-list .menu-item .router-link-exact-active .item-icon {
+    background-color: var(--light-zinc);
+  }
+.item-icon, .item-name {
+  cursor: pointer;
+}
+  /* sweet alert custom icon changes start*/
+  .ico{
+    border: 0  !important;
+  }
+  .ico:after{
+      content: '';
+      display: block;
+      height: 100px;  /*height of icon */
+      width: 100px;  /*width of icon */
+      position: absolute;
+      background:  url(../../assets/images/pen1.png) no-repeat 0px 0px;
+  }
+  /* sweet alert custom icon changes end*/

@@ -1,0 +1,487 @@
+@media screen and (min-width: 1301px) {
+
+  .vdp-datepicker__calendar {
+    width: 250px!important;
+  }
+  .reg-table{
+    height: calc(100vh - 392px)!important; 
+   }
+  
+  }
+@media screen and (max-width: 1300px) and (min-width: 1163px) {
+  
+  .vdp-datepicker__calendar {
+    width: 220px!important;
+  }
+  .reg-table{
+    height: calc(100vh - 392px)!important; 
+   }
+  
+  }
+
+  @media screen and (max-width: 1163px) and (min-width: 992px) {
+   
+    /* .filter-content .no-gutters .col-12 {
+      padding-right: 2em!important;
+    } */
+    .reg-table{
+      height: calc(100vh - 392px)!important; 
+     }
+    .vdp-datepicker__calendar {
+      width: 180px!important;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .user-table {
+      height: calc(100vh - 416px)!important;
+      overflow-y: auto;
+      padding-right: 10px;
+  }
+
+  }
+@media screen and (max-width: 992px) {
+
+  .favourites{
+    display: none!important;
+  }
+  
+  .registry-radio-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .filter-content{
+    max-height: 180px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+ 
+  .transaction-wrapper .card-image {
+    width: 100%;
+  }
+
+  .agreement-content {
+    height: 100%;
+  }
+
+  .transaction-details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 877.5px) and (min-width: 768.5px) {
+  .reg2-table {
+    height: calc(100vh - 315px);
+  }
+}
+@media screen and (max-width: 822px) and (min-width: 769px) {
+ 
+  .registry-wrapper .registry-content .name,
+  .home-registry-wrapper .registry-content .name {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 619px) {
+  .profile-wrapper .nav-pills .nav-item {
+    width: 100%;
+  }
+  .profile-wrapper .nav-pills .nav-item:first-child {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  
+}
+@media screen and (max-width:991.5px) and (min-width: 877px) {
+  .reg-table {
+    height: calc(100vh - 422px)!important;
+  }
+}
+@media screen and (max-width:992px) and (min-width: 768px) {
+  .profile-wrapper .nav-pills .nav-item {
+    width: 100%;
+  }
+  .profile-wrapper .nav-pills .nav-item:first-child {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  
+}
+@media screen and (min-width: 769px) {
+  .auth-page-right {
+    display: flex;
+    align-items: center;
+  }
+  .auth-page-right .logo {
+    display: none;
+  }
+  .bottom {
+    display: none;
+  }
+  .reg-table{
+    height: calc(100vh - 455px); 
+   }
+   .user-table {
+    height: calc(100vh - 448px);
+    overflow-y: auto;
+    padding-right: 10px;
+}
+}
+@media screen and (max-width: 768px) {
+  .reg-table{
+    height: calc(100vh - 423px); 
+   }
+   .user-table{
+    height: calc(90vh - 415px);
+    overflow-y: auto;
+    padding-right: 10px;
+   }
+   .user1-table{
+    height: calc(90vh - 271px);
+    overflow-y: auto;
+    padding-right: 10px;
+   }
+  .top-nav .brand {
+    margin-left: 0;
+  }
+
+  .profile-wrapper .nav-pills {
+    margin: 15px 0 0 0;
+    width: 100%;
+  }
+
+  .auth-page-right {
+    overflow: hidden;
+    height: calc(100vh - 30px);
+    margin: 15px;
+    padding-top: 0;
+    background: var(--auth-right-background);
+  }
+
+  .auth-page-right .auth-page-right-content {
+    width: calc(100% - 50px);
+    margin: 15px auto 0 auto;
+  }
+
+  .auth-page-right .logo {
+    border-radius: 3px 3px 0px 0px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .auth-page-right .logo h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.387234px;
+    color: #ffee00;
+  }
+
+  .circle-one {
+    position: relative;
+    top: 0;
+    left: -10%;
+    transform: translateY(0);
+  }
+
+  .circle-two {
+    position: relative;
+    top: 0;
+    left: -10%;
+  }
+
+  .registry-wrapper {
+    padding: 0 7px;
+  }
+
+  .registry-sign-up-form {
+    padding: 0;
+  }
+
+  .registry-sign-up-form .registry-sign-up-form-content {
+    display: block;
+  }
+
+  .registry-sign-up-form .registry-sign-up-form-content .personal-info-wrapper,
+  .registry-sign-up-form .registry-sign-up-form-content .company-info-wrapper {
+    width: 100%;
+  }
+
+  .agreement-content {
+    margin: 15px 0;
+  }
+
+  .profile-wrapper .profile-content {
+    flex-direction: column;
+  }
+
+  .profile-wrapper .profile-content .user-profile-data {
+    width: 100%;
+  }
+
+  .profile-wrapper .profile-content .user-profile-data .account {
+    width: 100%;
+  }
+
+  .transaction-wrapper {
+    flex-direction: column;
+  }
+
+  .transaction-wrapper .card-image {
+    width: 100%;
+  }
+
+  .transaction-details {
+    width: 100%;
+  }
+
+  .menu-list .menu-item .menu-link .item-name {
+    display: none;
+  }
+
+  #mySidebar {
+    width: 50px;
+  }
+
+  .closebtn {
+    left: 58px;
+  }
+  .menu-list .menu-item .menu-link {
+    flex-direction: column;
+    margin: 0 0 15px 0;
+  }
+  .menu-list .item-icon {
+    margin-right: 0;
+  }
+
+  .signed-agreements {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .agreement-content {
+    padding: 10px;
+  }
+
+  .agreement-content .agreement-date .line::after,
+  .agreement-content .signature .line::after {
+    width: 100px;
+  }
+
+  .user-profile-image {
+    margin-bottom: 15px;
+  }
+
+  .user-profile-image .change-profile-image {
+    justify-content: center;
+  }
+
+  .user-profile-image #preview {
+    width: 100%;
+  }
+
+  .registry-radio-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 10px;
+  }
+
+  /* .home-registry-wrapper {
+    height: calc(100vh - 290px);
+  } */
+
+  .packages-card {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 747.5px) {
+  .reg2-table {
+    height: calc(100vh - 316px);
+  }
+  
+}
+    @media screen and (min-width: 627px) and (max-width: 747.5px) {
+    .reg-table {
+      height: calc(100vh - 454px);
+    }
+    }
+@media screen and (max-width: 680px) {
+
+.check{
+  margin-left: -3%!important;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .check{
+    margin-left: -3.5%!important;
+  }
+  .payment-method .payment-card .card-wrapper {
+    flex-direction: column;
+  }
+
+  .profile-wrapper .nav-pills .nav-item {
+    width: 100%;
+  }
+  .profile-wrapper .nav-pills .nav-item:first-child {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  .agreement-content .agreement-form-wrapper .disclosing-party,
+  .agreement-content .agreement-form-wrapper .receiving-party {
+    max-width: 65px;
+    font-size: 9px;
+  }
+  .payment-method .payment-method-heading {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .packages-wrapper .tab-pane {
+    display: block;
+  }
+
+  .transaction-top button {
+    padding: 10px;
+  }
+  .transaction-details .transaction-content .transaction-data .price-save {
+    gap: 10px;
+  }
+
+  .agreement-content h2 {
+    font-size: 18px;
+  }
+  .registry-wrapper-top h5,
+  .registry-sign-up-form h5 {
+    font-size: 16px;
+  }
+
+  .registry-wrapper .registry-wrapper-bottom,
+  .home-registry-wrapper .registry-wrapper-bottom {
+    grid: none;
+  }
+
+  .registry-wrapper-bottom .bottom-right {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 630px) {
+  .reg-table{
+    height: calc(100vh - 454px); 
+   }
+  }
+  @media screen and (max-width: 545px) {
+    .reg-table{
+      height: calc(100vh - 455px); 
+     }
+    }
+@media screen and (max-width: 540px) {
+  .registry-wrapper-top .buttons .form-group .search-icon {
+    margin-top: 25px;
+   }
+   .reg-table{
+    height: calc(100vh - 475px); 
+   }
+  }
+  @media screen and (max-width: 540.5px) {
+    .reg2-table {
+      height: calc(100vh - 337px);
+    }
+    
+  }
+
+@media screen and (max-width: 480px) {
+  .reg-table{
+    height: calc(100vh - 475px)!important; 
+   }
+  .check{
+    margin-left: -4%!important;
+  }
+  .reg-table{
+    height: calc(100vh - 461px); 
+   }
+  .top-nav .brand {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 413px) {
+  .check{
+    margin-left: -5%!important;
+  }
+  .seperator img {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 413px) {
+  
+.registry-wrapper .registry-content .image,
+.home-registry-wrapper .registry-content .image {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+  .registry-wrapper .registry-content .image img,
+  .home-registry-wrapper .registry-content .image img {
+    width: 100%;
+    height: 50px;
+    border-radius: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .home-registry-wrapper .registry-content .date {
+    font-size: 14px;
+    font-family: var(--outfit);
+    line-height: 20px;
+    letter-spacing: -0.442553px;
+    color: var(--text-primary-color);
+  }
+  
+}
+@media screen and (max-width: 444px) and (min-width: 413px) {
+  .home-registry-wrapper .registry-content .name h4 {
+    font-family: var(--outfit);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.442553px;
+    color: var(--text-primary-color);
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 446px) {
+  .vd-menu__content {
+    min-width: 225px!important;
+    height: 230px!important;
+    overflow-y: scroll;
+    margin-left: 15px;
+  }
+  .vd-picker {
+    width: 225px!important;
+  }
+}
+
+@media screen and (max-width: 446px) and (min-width: 323px) {
+ 
+.vdp-datepicker__calendar {
+  width: 220px!important;
+}
+
+}
+@media screen and (max-width: 390px){
+  .vd-menu__content--active {
+    left: 70px!important;
+  }
+}

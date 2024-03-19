@@ -1,0 +1,76 @@
+:root {
+  --open-sans: "Open Sans", sans-serif;
+  --outfit: "Outfit", sans-serif;
+  --inter: "Inter", sans-serif;
+  --yellow: #ffee00;
+  --btnColor:linear-gradient(180deg, #054255 50%,  #07546b 100%); 
+  /* --black: #000000; */
+  --black: #4d4d4d;
+  --white: #ffffff;
+  --light-black: #333333;
+  --snow: #f9f9f9;
+  --light-gray: #d9d9d9;
+  --link-color: #188ef5;
+  --light-zinc: #13BBF0;
+
+  --background-color-primary: #ffffff;
+  --background-color-secondary: #fafafa;
+  --accent-color: #cacaca;
+  --text-primary-color: #58595b;
+  --element-size: 4rem;
+  --left-sidebar-background: #2e2e2e;
+  --registry-wrapper: #ffffff;
+  --table-head: #0d1f36;
+  /* --filter: brightness(0); */
+  --filter-secondary: brightness(350%);
+  --filter-img: brightness(350%);
+  --filter-ternary: brightness(150%);
+  --sub-heading: rgba(38, 38, 61, 0.6);
+  --input-label: #4d4d4d;
+  --transaction-date: #252f40;
+  --expired: rgba(77, 77, 77, 0.12);
+
+  --auth-background: #e9e9e9;
+  --auth-left-background: linear-gradient(180deg, #054255 50%,  #07546b 100%);
+  --auth-right-background: #ffffff;
+  --main-black: #444444;
+  --left-sidebar: #58595b;
+  --opacity: 0.5;
+  --nav-logo: brightness(100%);
+  --auth-logo: brightness(270%);
+  --zoom-bg: transparent;
+  --active-btn: #329C00;
+  --not-signed: #58595B;
+}
+
+:root.dark-theme {
+  --zoom-bg: transparent;
+  --light-black: #ffffff;
+  --background-color-primary: transparent;
+  --background-color-secondary: #2d2d30;
+  --accent-color: #3f3f3f;
+  --text-primary-color: #ffffff;
+  --left-sidebar-background: #383838;
+  --registry-wrapper: #383838;
+  --table-head: #ffffff;
+  --filter: brightness(600%);
+  --filter-img: brightness(350%);
+  --filter-secondary: brightness(0);
+  --filter-ternary: brightness(150%);
+  --sub-heading: rgba(255, 255, 255, 0.6);
+  --input-label: #ffffff;
+  --transaction-date: #ffffff;
+  --expired: rgba(255, 255, 255, 0.46);
+
+  --auth-background: #424242;
+  --auth-left-background: #054255;
+  --auth-right-background: #383838;
+  --main-black: #2e2e2e;
+  --left-sidebar: #383838;
+  --opacity: 0.8;
+  --nav-logo: brightness(350%);
+
+/* Buttons */
+  --active-btn: #ffffff;
+  --not-signed: #d4caca;
+}
